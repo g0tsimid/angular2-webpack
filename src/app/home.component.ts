@@ -3,6 +3,6 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'snt-home',
   templateUrl: './home.component.html',
-  styleUrls: ['./app.component.css'],
+  styleUrls: ['./home.component.css'],
 })
 export class HomeComponent {}
