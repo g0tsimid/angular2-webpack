@@ -1,16 +1,8 @@
-import { Component, OnInit } from '@angular/core';
-import { ROUTER_DIRECTIVES } from '@angular/router';
+import { Component } from '@angular/core';
 
 @Component({
-    moduleId: module.id,
-    selector: 'snt-nav',
+    selector: 'my-nav',
     templateUrl: './nav.component.html',
-    styleUrls: ['./nav.component.css'],
-    directives: [ ROUTER_DIRECTIVES ]
+    styleUrls: ['./nav.component.css']
 })
-export class NavComponent implements OnInit {
-    constructor() { }
-
-    ngOnInit() { }
-
-}
+export class NavComponent { }
